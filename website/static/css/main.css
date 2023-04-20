@@ -1,0 +1,45 @@
+body{
+    background-image: url("../images/home_bkgrnd.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.notification {
+    background-color: #f2f2f2;
+    border: 10px solid #ddd;
+    border-radius: 40px;
+    color: #333;
+    width: 500px;
+    margin-top: 500px;
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+  }
+  
+  .notification-message {
+    margin-top: 10px;
+    color:#333;
+    
+  }
+  
+  .notification-close {
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    height: 20px;
+    line-height: 18px;
+    padding-right: 100px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+  }
+  
+
+
+
+
+
+  

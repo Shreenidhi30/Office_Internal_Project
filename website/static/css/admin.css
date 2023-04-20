@@ -1,0 +1,33 @@
+body{
+    background-image: url("../images/home_bkgrnd.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    font-weight: bold;
+  }
+  
+  td{
+    border: 3px solid black;
+    text-align: left;
+    padding: 8px;
+    
+  }
+
+  th {
+    border: 3px solid black;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  tr:nth-child(even) {
+    background-color:aqua
+  }
